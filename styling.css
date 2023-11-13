@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    background-color: ;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: ;
+    padding: 20px;
+    color: ; 
+
+}
+/*creating a responsive design*/
+@media screen and (max-width: 768px){"responsive to media screens suvh as phones"}
+@media screen and (max-width: 597px){"responsive to medium device screens such as tablets"}
+@media screen and (max-width: 768px)body{ font-size: 20px;"desktop specific style"}
+
+/*navigation bar editing*/
+nav{
+     border: inset  #000;
+background-color: aqua;
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+padding:20px ;
+margin-bottom:20px ;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li a  {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style: circle  ;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    text-align: ;
+    padding: 20px;
+}
+header h1{
+    color: green;
+}
+
+header img {
+    width: 300px;
+    height: 150px;
+    position: center;
+}
+
+header p{
+    color: orange;
+}
+
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: Green;
+}
+
+h2 {
+    color: Red;
+}
+
+p {
+    color: Black;
+}
+
+ul li {
+    color: Black;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: Black;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    width: 400px;
+}
+
+input[type="submit"] {
+    background-color: DarkRed;
+    color: White;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: center;
+}
+
+
+#sidebar{
+    background-color:
+    ;
+    color:  orange;
+}
+.hum h2{
+    color: blue;
+}
+#sidebar ul li a{
+    color:orange;
+    font-weight: bolder;
+    background-color: black;
+}
+.content{
+    display: ;
+    justify-content: center;
+    align-items: center;
+    height:;
+}
+#sidebar h3{
+    color: green;
+}
+
+/* Footer Styles */
+footer {
+    background-color: aqua;
+    padding: 20px;
+    color: Black;
+    border: inset  #000;
+}
+
+address {
+    color: Black;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    background-color: ;
+}
